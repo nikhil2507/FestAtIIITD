@@ -1,0 +1,12 @@
+.highlight {
+    color: darkblue;
+    background-color: #84faf9;
+}
+.end-highlight {
+    background-color: brown;
+    color: bisque;
+}
+.calendar-app{   
+    margin-left: auto;
+    margin-right: auto;
+}

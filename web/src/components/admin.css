@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.admin-img{
+    margin-left: 2rem;
+    width: 90%;
+}
+.img-container{
+    width: 50%;
+    font-family: 'Open Sans', sans-serif;
+}
+.admin-container{
+    display: flex;
+}
+.admin-item{
+    border-radius: 1rem;
+    width: 70%;
+    padding: 1rem 2rem 1rem 2rem;
+    justify-content: space-between;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3rem;
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 5rem;
+    background-color: #42acab;
+}
+.admin-item:hover{
+    background-color: #3e9e9d;
+    color: aliceblue;
+}
+.admin-options{
+    margin-top: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.option-link{
+    color: #fff
+}
+.option-link:hover{
+    color:#fff
+}

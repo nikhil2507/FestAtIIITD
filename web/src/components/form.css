@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+.submit-btn{
+    border-radius: 8px;
+    color: #fff;
+    background-color: #42acab;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    padding: 1rem;
+    width: 9rem;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.submit-btn:hover{
+    background-color: #3e9e9d;
+
+}
+.event-form{
+    color: white;
+    background-color: #42acab;
+    border-style: solid;
+    border-color: black;
+    border-radius: 1rem;
+    border-width: 0px;
+    margin-left:auto; 
+    margin-right:auto;
+    margin-top:2rem;
+    width:40%;
+}
+.event-form h3{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}

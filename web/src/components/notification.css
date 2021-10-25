@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.announce-card{
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: #58585a; */
+    border-radius: 1rem;
+    width: 90%;
+    text-align:center;
+}
+.announce-container{
+    padding-bottom:1rem;
+    width: 100%;
+}
+.announce-title{
+    text-align:left;
+    font-size:1.5rem;
+}
+.announce-title span{
+    font-weight:normal;
+    color: #bdc3c7;
+}
+.announce-footer{
+    /* background-color: #818285; */
+    text-align: right;
+}
+
+.announce-body{
+    font-family: 'Open Sans', sans-serif ;
+    text-align: left;
+    font-size: 50px;
+}
+.announce-btn{
+    color: white;
+    border-radius: 8px;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding: 1rem;
+    width: 7rem;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.announce-btn:hover{
+    background-color: #6d6e71;
+}
+.add-notif-container{
+    font-family: 'Open Sans', sans-serif ;
+    color:#fff;
+    background-color: #818285; 
+    border-radius:0.5rem;
+    border-width:0.2rem;
+    width:30rem;
+    margin-top:1rem; 
+    margin-bottom:2rem;
+    padding-top:1rem; 
+    padding-bottom:1rem;
+}
+.announce-text{
+    font-size: 1.5rem;
+    font-weight:bold;
+}

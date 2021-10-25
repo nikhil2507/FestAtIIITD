@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.outer-container{
+    display: flex;
+}
+.login-image{
+    width: 27rem;
+    margin: 1rem 2rem 0 4rem;
+}
+
+.login-div{
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.form{
+    margin-top: 6rem;
+    padding-top: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    border-radius: 1rem;
+    background-color: #6d6e71;
+}
+
+.form h2{
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.form-input{
+    width: 85%;
+    height: 2.5rem;
+    padding-left: 0.5rem;
+    margin: 1rem 0 2rem;
+    border-width: 0;
+    border-radius: 0.5rem;
+    /* border-color: aqua; */
+    border-style: solid;
+}
+
+.form-button{
+    color: white;
+    border-radius: 8px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    padding: 1rem;
+    width: 7rem;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.form-button:hover{
+    background-color: #58585a;
+}

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.merged-photo{
+  background-image: url("../images/Merge_Image_Try.png");
+  height: 400px;
+  opacity: 0.7;
+  margin-top: 0.6rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: all 1s;
+
+}
+.merged-photo:hover{
+  transform: scale(1.05);
+  transition: all 1s;
+}
+
+.about-info{
+  margin-bottom: 1.5rem;
+  /* box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.1); */
+  padding: 2px 8px 16px 8px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  width: 40%;
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+}
+.about-info h3{
+  text-align: center;
+  font-weight: bold;
+}
+.about-info h4{
+  text-align: center;
+}
+
+.btn-div{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.myBtn{
+  border-radius: 8px;
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  width: 180px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.myBtn:hover{
+    background-color: #3e9e9d;
+}
+.myBtn span {
+    color:#000;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+.myBtn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    color:#fff;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+.myBtn:hover span {
+    color: #fff;
+    padding-right: 25px;
+  }
+  
+.myBtn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.image-div{
+    width: 100%;
+    text-align: center;
+}
+.queue-image{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70rem;
+}
+
+.form-div{
+    height:90vh;
+    margin: auto;
+    padding-top: 0.5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+    text-align: center;
+}
+.reg-form{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    margin-top: 5rem;
+    border-radius: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    background-color: #6d6e71;
+    margin-bottom: 2rem;
+}
+.reg-form h2{
+    
+    margin-bottom: 3rem;
+}
+.reg-input{
+    padding-left: 0.5rem;
+    width: 80%;
+    border-style: solid;
+    border-radius: 0.5rem;
+    border-width: 0;
+    height: 2.5rem;
+    margin-bottom: 2rem;
+}
+.reg-btn{
+    color: white;
+    border-radius: 8px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    padding: 1rem;
+    width: 10rem;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+.reg-btn:hover{
+    background-color: #58585a;
+}
